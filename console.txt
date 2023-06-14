@@ -1,0 +1,109 @@
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python3 dataPreprocessing.py
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Executrst\Project_v1\dataPreprocessing.py", line 3, in <module>
+    import scipy.stats as stats
+ModuleNotFoundError: No module named 'scipy'
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> pip install scipy.stats
+ERROR: Could not find a version that satisfies the requirement scipy.stats (from versions: none)
+ERROR: No matching distribution found for scipy.stats
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1>
+Lab\SafeT_First\Project_v1> python dataPreprocessing.py
+PS C:\Users                           \SafeT_First\Project_v1>
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+Robbery df type: <class 'pandas.core.frame.DataFrame'>
+Robbery shape: (283360, 5)
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1>
+\local\programs\python\python311\lib\site-packages (from scikit-learn) (1.24.3)
+Requirement already satisfied: scipy>=1.3.2 in c:\users\samir\appdata\local\programs\python\python311\lib\site-packages (from scikit-learn) (1.10.1)
+Collecting joblib>=1.1.1 (from scikit-learn)
+  Using cached joblib-1.2.0-py3-none-any.whl (297 kB)
+Collecting threadpoolctl>=2.0.0 (from scikit-learn)
+  Using cached threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Installing collected packages: threadpoolctl, joblib, scikit-learn
+Successfully installed joblib-1.2.0 scikit-learn-1.2.2 threadpoolctl-3.1.0
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1>
+
+                                                                     
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> pip install matplotlib
+Collecting matplotlib
+  Downloading matplotlib-3.7.1-cp311-cp311-win_amd64.whl (7.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.6/7.6 MB 9.8 MB/s eta 0:00:00
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.0.7-cp311-cp311-win_amd64.whl (162 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.0/163.0 kB 9.5 MB/s eta 0:00:00
+Collecting cycler>=0.10 (from matplotlib)
+  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Downloading fonttools-4.40.0-cp311-cp311-win_amd64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 15.5 MB/s eta 0:00:00
+.7->matplotlib) (1.16.0)
+Installing collected packages: pyparsing, pillow, kiwisolver, fonttools, cycler, contourpy, matplotlib
+Successfully installed contourpy-1.0.7 cycler-0.11.0 fonttools-4.40.0 kiwisolver-1.4.4 matplotlib-3.7.1 pillow-9.5.0 pyparsing-3.0.9
+s, cycler, contourpy, matplotlib   
+Successfully installed contourpy-1.0.7 cycler-0.11.0 fonttools-4.40.0 kiwisolver-1.4.4 matplotlib-3.7.1 pillow-9.5.0 pyparsing-3.0.9        
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+PS C:\Users\samir\Documents\python dataPreprocessing.pyect_v1>        
+[[   43.7069046    -79.39623024     5.86921459  1791.21230715]        
+ [   43.70431563   -79.40040179     5.8317508   3077.65802732]        
+ [   43.70883125   -79.39307028     5.77438344   716.61686796]        
+ [   43.70510446   -79.39980597     5.55320079  2549.41372078]        
+ 5.74516011  2811.31264336]
+ [   43.70813249   -79.39596462     6.03179982  1530.84383269]
+ [   43.71673108   -79.38782705    12.82587065 -2859.35572139]
+ [   43.70799045   -79.39453976     5.87975836   985.21831831]
+ [   43.70616956   -79.39564959     5.71331644  2311.25069781]
+ [   43.70523348   -79.40433026     5.54114701  3314.42919054]]
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1>
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+Traceback (most recent call last):
+  File "C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1\dataPreprocessing.py", line 69, in <module>
+    plt.scatter(df_projected4[label == i , 0] , df_projected4[label == i , 1] , label = i)
+                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+IndexError: boolean index did not match indexed array along dimension 0; dimension is 20000 but corresponding boolean dimension is 283360
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+Traceback (most recent call last):
+  File "C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1\dataPreprocessing.py", line 69, in <module>
+    plt.scatter(df_projected4[label2 == i , 0] , df_projected4[label2 == i , 1] , label2 = i)
+  File "C:\Users\samir\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\pyplot.py", line 2862, in scatter
+    __ret = gca().scatter(
+            ^^^^^^^^^^^^^^
+  File "C:\Users\samir\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\__init__.py", line 1459, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\samir\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\axes\_axes.py", line 4698, in se-packages\matplotlib\artist.py", line 1197, in _update_props
+dataPreprocessing.py
+Traceback (most recent call last):
+  File "C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1\dataPreprocessing.py", line 74, in <modataPreprocessing.py
+Traceback (most recent call last): 
+  File "C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1\dataPreprocessing.py", line 74, in <module>
+    centroids.to_csv('./centroids.csv')
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'to_csv'      
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+ 5.74516011  2811.31264336]
+ [   43.70813249   -79.39596462     6.03179982  1530.84383269]
+ [   43.71673108   -79.38782705    12.82587065 -2859.35572139]
+ [   43.70799045   -79.39453976     5.87975836   985.21831831]
+ [   43.70616956   -79.39564959     5.71331644  2311.25069781]
+ [   43.70523348   -79.40433026     5.54114701  3314.42919054]]
+PS C:\Users\samir\Documents\python dataPreprocessing.pyect_v1>
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+Traceback (most recent call last):
+  File "C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1\dataPreprocessing.py", line 76, in <module>
+    df_centroid = pd.DataFrame(centroids,columns=['Latitude','Longitude','OFFENCE','DAYS_SINCE'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\samir\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 758, in __init__
+    mgr = ndarray_to_mgr(
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\samir\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\construction.py", line 337, in ndarray_to_mgr
+    _check_values_indices_shape_match(values, index, columns)
+  File "C:\Users\samir\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\construction.py", line 408, in _check_values_indices_shape_match
+    raise ValueError(f"Shape of passed values is {passed}, indices impis (100, 2), indices imply (100, 4)
+dataPreprocessing.pyect_v1>
+43.6494885859673
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+-79.59269893237754
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1> python dataPreprocessing.py
+43.81677434130815
+-79.21892871597395
+PS C:\Users\samir\Documents\AI4GoodLab\SafeT_First\Project_v1>
